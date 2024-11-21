@@ -14,5 +14,3 @@ elif exam_score >= 60 and exam_score <= 69:
     print(f'hi {Student_name} you scored {exam_score} You made a D! quit play and read your books')
 else:
     print(' You made an F! you are a big faliour go and start selling fish')
-
-
