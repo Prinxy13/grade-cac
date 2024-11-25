@@ -1,15 +1,15 @@
-Name = input('Enter your name pls!:')
+name = input('Enter your name pls!:')
 weight = int(input(f'your weightin kilograms is!:'))
 if weight <= 0:
     print('Error! invalid value enterd!')
 
-hieght = float(input(f'your height in meters is:'))
+height = float(input(f'your height in meters is:'))
 if height <= 0:
     print('Error! Invalid value enered!')
 
-body_mass_index = weight/hieght**2
+body_mass_index = weight/height**2
 if body_mass_index < 18.5:
-    print(f'{name}, your body mass index is{body_mass_index:.2f}\nYou are underweight')
+    print(f'{name}, your body mass index is {body_mass_index:.2f}\nYou are underweight')
 elif body_mass_index >= 18.5 and body_mass_index <  25:
     print(f'{name}, your body mass index is {body_mass_index:.2f}\nYou have a normal weight')
 elif body_mass_index >= 25 and body_mass_index< 30:
